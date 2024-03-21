@@ -1,6 +1,6 @@
 \documentclass[line,margin]{res}
 \addtolength{\textheight}{1in}
-\addtolength{\topmargin}{-40px}
+%\addtolength{\topmargin}{-40px}
 \addtolength{\oddsidemargin}{-20px}
 \addtolength{\textwidth}{30px}
 \usepackage{changepage}
@@ -25,7 +25,7 @@
 % 	\item Experinced in deploying and managing on-prem and cloud infrastructures. Leveraged IaC technologies as well as automation development/programming, node triage, and POC development and deployment.
 % \end{itemize}
 % \end{adjustwidth}
-
+%\vspace{-20px}
 \section{EXPERIENCE}
 \vspace{25px}
 \begin{adjustwidth}{-115pt}{0pt}
@@ -34,20 +34,22 @@
 		Slickdeals, Platforms Team - Las Vegas, NV (Remote)
 		\begin{itemize}
 			%\itemsep -2pt
-			\item Managed and deployed both on-prem and cloud infrastructure utilizing IaC platforms such as Chef and Terraform.
-				\subitem - Managed Chef cookbooks for deploying and unit testing on-prem nodes and AMIs for EC2.
-				\subitem - Created and managed Terraform code to deploy infrastructure such as EKS clusters and various AWS services such as S3, IAM, Route53, and Security Groups
-				\subitem - Gathered on-prem node metrics by leveraging Cacti.
-			\item Managing technology lifecycle from SPIKE, to POC, to implementation and deployment.
-				\subitem - Researched, deployed, and owned EKS cluster for production and development workloads.
-				\subitem - Enabling EKS technologies to optimize workloads in the cloud (auto scalers, PVCs, certificate management).
-				\subitem - Captured EKS logs and monitoring statistics by leveraging Amazon Cloudwatch and Prometheus.
-				\subitem - Installed Kubernetes metrics server allowing workloads to leverage horizontal pod autoscaling.
-			\item Member of Cloud Migration Team focusing on architecting, deploying, and managing cloud solutions to replace on-prem technologies.
-				\subitem - Owning database migration project to migrate MySQL5.6 to MySQL8 in preparation for RDS deployment.
-				\subitem - Manage relationship with 3rd party database vendor Percona and acted as primary point of contact.
+			\item Manage and deploy on-prem and cloud infrastructure by leveraging infrastructure-as-code platforms.
+				\subitem - Manage/develop chef cookbooks for deploying on-prem infrastructure.
+				\subitem - Create Terraform to manage and deploy cloud infrastructure on AWS (EKS, S3, IAM, etc…).
+				\subitem - Monitor nodes with Nagios, Cacti, and visualize data with Grafana.
+			\item Accelerating engineering teams by directing technology stack.
+				\subitem - Owner/maintainer of EKS project intended to replace on-prem infrastructure.
+				\subitem - Implemented Consul ACLs and codified into Chef cookbooks.
+				\subitem - Migrated Nexus from local VM to EKS container.
+			\item Own project lifecycle from managing stakeholders, research, resource management, execution, follow up.
+				\subitem - Project owner for MySQL5.6 to MySQL8.0 migration to stage databases for RDS migration.
+				\subitem - Manage relationship with Percona DBA vendor, primary point of contact.
+			\item Mentoring engineers by providing feedback and guidance for complex projects.
+			\item Supporting engineering teams, triaging issues, and participating in 24/7 on-call rotation.
 
 		\end{itemize}
+	%\vspace{-10px}
 	\hfill\\
 	{\sl CAD Engineer}
 		\hfill July 2018 - October 2021\\
@@ -56,25 +58,27 @@
 			%\itemsep -2pt
 			\item Streamlined IP release process by creating automated repository sync and management tool.
 				\subitem - Leveraged technologies such as Javascript/jQuery, Python, and Git. 
-			\item Designed and manage VM infrastructure (assigning resources, load balancing, VM deployments) used for hosting automations, service hosts, and custom VMs.
+			\item Designed and manage VM infrastructure used for hosting automations, service hosts, and custom VMs.
 			\item Develop and maintain automation infrastructure and compute hosts.
 				\subitem - Debugging of Linux hosts, investigating new technologies, and deploying services and automations.
 			\item Liaison and “fixer” for engineering and IT communications and joint projects.
 		\end{itemize}
+	%\vspace{-10px}
 	\hfill\\
 	{\sl Linux Systems Engineer}
 		\hfill June 2015 - July 2018\\
 		Synopsys, Information Technology and Engineering Support - Hillsboro OR
 		\begin{itemize}
 			%\itemsep -2pt
-			\item Worked closely with several international teams during acquisitions for integration of their compute environment to ensure a smooth bring up.
-			\item Managed local datacenter including network/storage appliances. Responsibilities included the entire lifecycle of servers: purchase, physical installation, provision/management, removal and retirement.
+			\item Working with international teams during acquisitions for integrations onboarding.
+			\item Managed local datacenter including network/storage appliances.
+				\subitem - Managed lifecycle of hardware: purchase, installation, provision/management, removal and retirement.
 			\item Participation in 24/7 on-call as well as disaster recovery operations.
 			\item Work with engineering teams for development of joint automations, services, and tools.
 			\item Project lead for site networking upgrade including datacenter backbones, floor networks, and wireless networks.
 %				\subitem - Coordinated work with contractors and facilities for fiber and facilities hardware installation.
 %				\subitem - Cabled and installed all datacenter backbone switches, floor IDFs, and networking endpoints.
-			\item Daily responsibilities include monitoring datacenter health, Linux host triage/debug, deployment/scaling of IT services, automations, and tools.
+			\item Monitoring datacenter health, Linux host triage, deployment/scaling of services, automation and tools creation.
 		\end{itemize}
 
 	%\hfill\\
@@ -106,10 +110,11 @@
 	\begin{itemize}
 		%\itemsep - 2pt
 		\item Programming: Python, BASH, C/Cpp, Perl, Ruby, TCL, Assembly, AVR, MATLAB, \LaTeX, SQL
-		\item DevOps/SRE: AWS, Kubernetes/EKS, Docker/Compose, Terraform, SGE, LSF, Helm, Rancher, Elasticsearch, Grafana, Prometheus, Nagios, Chef, Jenkins, Ansible, Jira, Git, Perforce, Linux, K9s
+		\item DevOps: Docker/Compose, SGE, LSF, Elasticsearch, Grafana, Nagios, Chef, Jenkins, Ansible, Jira, Perforce
+		\item Cloud: AWS, Kubernetes/EKS, Terraform, K9s, Rancher, Helm, Git
+		\item Front-End: JavaScript, jQuery, HTML, CSS, Flask, PHP, Sharepoint
 		% \item DevOps Principles: Load balancing, microservices, robust architecture design, networking, NFS/storage, CD/CI
 		% \item Operating Systems: CentOS, RHEL, Ubuntu, Windows, MacOS
-		\item Front-End: JavaScript, jQuery, HTML, CSS, Flask, PHP, Sharepoint
 	\end{itemize}
 \end{adjustwidth}
 
